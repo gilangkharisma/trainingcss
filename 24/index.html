@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ile Esnek Galeri</title>
+	<style type="text/css">
+		.galeriku {
+			display: flex;
+			height: 20rem;
+			gap: 1rem;
+		}
+		.galeriku > div {
+			flex: 1;
+			border-radius: 1rem;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: auto 100%;
+			transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+		}
+		.galeriku > div:hover {
+			flex: 5;
+		}
+	</style>
+</head>
+<body>
+	<div class="galeriku">
+		<div style="background-image: url('g1.jpg');"></div>
+		<div style="background-image: url('g2.jpg');"></div>
+		<div style="background-image: url('g3.jpg');"></div>
+		<div style="background-image: url('g4.jpg');"></div>
+		<div style="background-image: url('g5.jpg');"></div>
+	</div>
+</body>
+</html>
